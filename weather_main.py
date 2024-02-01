@@ -21,7 +21,7 @@ def get_weather():
 root = tk.Tk()
 root.title("Weather Forecast")
 
-canvas = tk.Canvas(root, height=400, width=800)
+canvas = tk.Canvas(root, height=400, width=1200)
 canvas.pack()
 
 frame = tk.Frame(root, bg="#80c1ff", bd=5)
